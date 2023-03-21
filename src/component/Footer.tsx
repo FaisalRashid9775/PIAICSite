@@ -1,4 +1,4 @@
-import { Box, Container, Flex, Heading, Text } from "@chakra-ui/react";
+import { Box, Container, Flex, Heading, Text,SimpleGrid } from "@chakra-ui/react";
 import React from "react";
 import Link from "next/link";
 
@@ -6,13 +6,11 @@ export default function Footer() {
   return (
     <div>
       <Box bgColor={"teal.600"} color={"white"} p={{ base: 5, lg: 15 }}>
-        
-          <Flex
-            gap={{ base: 12, lg: 24 }}
+        <Container maxW={1400}>
+         <SimpleGrid templateColumns={{ lg:'repeat(4, 1fr)', base: 'repeat(1 , 1fr)'}} gap={{ base: 12, lg: 24 }}
             display={{ base: "grid", lg: "flex" }}
             textAlign={{ base: "center", lg: "initial" }}
-            py={{ base: 2, lg: 5 }}
-          >
+            py={{ base: 2, lg: 5 }}>
             <Box>
               <Heading>Navigation</Heading>
               <Flex direction={"column"}>
@@ -42,8 +40,8 @@ export default function Footer() {
               <Heading>Help line</Heading>
               <Text>+92-308-2220203 (WhatsApp as well)</Text>
             </Box>
-          </Flex>
-        
+          </SimpleGrid>
+        </Container>
       </Box>
     </div>
   );
