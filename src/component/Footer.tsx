@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <div>
-      <Box bgColor={"teal.600"} color={"white"} p={{ base: 5, lg: 15 }}>
+      <Box component="div" bgColor={"teal.600"} color={"white"} p={{ base: 5, lg: 15 }}>
         <Container maxW={1400}>
          <SimpleGrid templateColumns={{ lg:'repeat(4, 1fr)', base: 'repeat(1 , 1fr)'}} gap={{ base: 12, lg: 24 }}
             display={{ base: "grid", lg: "flex" }}
