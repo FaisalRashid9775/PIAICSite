@@ -22,18 +22,18 @@ export default function Footer() {
             <Box>
               <Heading>Available Program</Heading>
               <Flex direction={"column"}>
-                <Link href={""}>Artifical Intelligence</Link>
-                <Link href={""}>BlockChain</Link>
-                <Link href={""}>IOT</Link>
-                <Link href={""}>Cloud Computing</Link>
+                <Link href={"/Program"}>Artifical Intelligence</Link>
+                <Link href={"/Program"}>BlockChain</Link>
+                <Link href={"/Program"}>IOT</Link>
+                <Link href={"/Program"}>Cloud Computing</Link>
               </Flex>
             </Box>
             <Box>
               <Heading>Contact us</Heading>
               <Flex direction={"column"}>
-                <Link href={""}>Facebook</Link>
-                <Link href={""}>Youtube</Link>
-                <Link href={""}>Linkdln</Link>
+                <Link href={"https://www.facebook.com/piaic/"}>Facebook</Link>
+                <Link href={"https://www.facebook.com/piaic/"}>Youtube</Link>
+                <Link href={"https://www.facebook.com/piaic/"}>Linkdln</Link>
               </Flex>
             </Box>
             <Box>
