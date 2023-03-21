@@ -10,7 +10,7 @@ export default function page() {
         <Container maxW={1400}>
           <Box p={{lg :24, base:4}} mx={{lg:40 , base:2}}>
             <Center >
-            <Image borderRadius={'full'} w={70} h={90} src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/President_of_Pakistan_Dr_Arif_Alvi_%28cropped%29.jpg/220px-President_of_Pakistan_Dr_Arif_Alvi_%28cropped%29.jpg'></Image>
+            <Image borderRadius={'full'} alt={'President'} w={70} h={90} src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/President_of_Pakistan_Dr_Arif_Alvi_%28cropped%29.jpg/220px-President_of_Pakistan_Dr_Arif_Alvi_%28cropped%29.jpg'></Image>
               
             </Center>
             
