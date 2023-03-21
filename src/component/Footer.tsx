@@ -28,7 +28,7 @@ export default function Footer() {
                 <Link href={"/Program"}>Cloud Computing</Link>
               </Flex>
             </Box>
-            <Box>
+            {/* <Box>
               <Heading>Contact us</Heading>
               <Flex direction={"column"}>
                 <Link href={"https://www.facebook.com/piaic/"}>Facebook</Link>
@@ -39,7 +39,7 @@ export default function Footer() {
             <Box>
               <Heading>Help line</Heading>
               <Text>+92-308-2220203 (WhatsApp as well)</Text>
-            </Box>
+            </Box> */}
           </SimpleGrid>
         </Container>
       </Box>
