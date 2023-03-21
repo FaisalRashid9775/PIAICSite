@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <div>
         <Box boxShadow={"dark-lg"} color={'teal'}>
-        <Container maxW={1400}>
+        <Container >
           <SimpleGrid templateColumns={{base :'repeat(3, 1fr)', lg : 'repeat(3, 1fr)'}}>
             <Box>
               <Link href={'/'}>
