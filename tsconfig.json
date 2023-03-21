@@ -24,5 +24,9 @@
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+  "jsx": "react",
+"lib": ["ES5", "ES2015", "ES2016", "DOM", "ES2015.Promise"],
+"module": "esnext",
+"moduleResolution": "node"
 }
