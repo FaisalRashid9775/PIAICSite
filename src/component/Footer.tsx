@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <div>
       <Box bgColor={"teal.600"} color={"white"} p={{ base: 5, lg: 15 }}>
-        <Container maxW={1400}>
+        
           <Flex
             gap={{ base: 12, lg: 24 }}
             display={{ base: "grid", lg: "flex" }}
@@ -43,7 +43,7 @@ export default function Footer() {
               <Text>+92-308-2220203 (WhatsApp as well)</Text>
             </Box>
           </Flex>
-        </Container>
+        
       </Box>
     </div>
   );
