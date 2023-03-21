@@ -7,7 +7,7 @@ export default function Footer() {
     <div>
       <Box bgColor={"teal.600"} color={"white"} p={{ base: 5, lg: 15 }}>
         <Container maxW={1400}>
-         <SimpleGrid templateColumns={{ lg:'repeat(4, 1fr)', base: 'repeat(1 , 1fr)'}} gap={{ base: 12, lg: 24 }}
+         {/* <SimpleGrid templateColumns={{ lg:'repeat(4, 1fr)', base: 'repeat(1 , 1fr)'}} gap={{ base: 12, lg: 24 }}
             display={{ base: "grid", lg: "flex" }}
             textAlign={{ base: "center", lg: "initial" }}
             py={{ base: 2, lg: 5 }}>
@@ -28,7 +28,7 @@ export default function Footer() {
                 <Link href={"/Program"}>Cloud Computing</Link>
               </Flex>
             </Box>
-            {/* <Box>
+            <Box>
               <Heading>Contact us</Heading>
               <Flex direction={"column"}>
                 <Link href={"https://www.facebook.com/piaic/"}>Facebook</Link>
@@ -39,8 +39,8 @@ export default function Footer() {
             <Box>
               <Heading>Help line</Heading>
               <Text>+92-308-2220203 (WhatsApp as well)</Text>
-            </Box> */}
-          </SimpleGrid>
+            </Box>
+          </SimpleGrid> */}
         </Container>
       </Box>
     </div>
